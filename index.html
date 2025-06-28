@@ -2,164 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="OSP SURGICAL PVT LTD - Leading supplier of surgical and medical equipment in Delhi, India." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>OSP SURGICAL PVT LTD</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-    }
-    header {
-      background-color: #005b96;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    header img {
-      height: 80px;
-      margin-bottom: 10px;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #003f63;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-      display: block;
-    }
-    nav a:hover {
-      background-color: #005b96;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .product-card {
-      border: 1px solid #ccc;
-      padding: 10px;
-      background: white;
-      text-align: center;
-    }
-    .product-card img {
-      max-width: 100%;
-      height: 150px;
-      object-fit: contain;
-    }
-    form {
-      display: grid;
-      gap: 10px;
-    }
-    input, textarea {
-      padding: 10px;
-      font-size: 1em;
-      width: 100%;
-    }
-    button {
-      padding: 10px;
-      background: #005b96;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #00406d;
-    }
-    footer {
-      background-color: #003f63;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-    iframe {
-      width: 100%;
-      height: 300px;
-      border: 0;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <img src="images/osp_logo.png" alt="OSP Surgical Logo">
     <h1>OSP SURGICAL PVT LTD</h1>
-    <p>Quality Surgical & Medical Equipment Supplier</p>
+    <p>Delivering Trust in Every Surgical Instrument</p>
   </header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#products">Products</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>OSP SURGICAL PVT LTD is a trusted name in the surgical equipment industry, based in Delhi. We are dedicated to providing high-quality medical tools and devices for healthcare professionals. With a strong commitment to quality and compliance, we continue to serve hospitals, clinics, and distributors with reliability and trust.</p>
-    <p><strong>GSTIN:</strong> 07AAECO1631Q1Z6<br>
-       <strong>PAN:</strong> AAECO1631Q<br>
-       <strong>License:</strong> MD-42: RMD/DCD/HO-2233/4365</p>
-  </section>
-
-  <section id="products">
-    <h2>Our Products</h2>
-    <div class="products">
-      <div class="product-card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Surgical_Scissors.jpg/640px-Surgical_Scissors.jpg" alt="Surgical Scissors">
-        <h3>Surgical Scissors</h3>
-        <p>Precision stainless steel scissors for surgical use.</p>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>OSP Surgical Pvt Ltd is a Delhi-based trusted supplier of high-quality medical and surgical equipment...</p>
+    </section>
+    <section>
+      <h2>Contact Information</h2>
+      <div class="contact-info">
+        <p><span class="highlight">Address:</span> A-363, A Block, New Ashok Nagar, Delhi-110096 (Opp. Shakti Dairy, Shiv Mandir Road)</p>
+        <p><span class="highlight">GSTIN:</span> 07AAECO1631Q1Z6</p>
+        <p><span class="highlight">PAN:</span> AAECO1631Q</p>
+        <p><span class="highlight">Phone:</span> 8287590081</p>
+        <p><span class="highlight">Email:</span> ospsurgicals@gmail.com</p>
+        <p><span class="highlight">License No:</span> MD-42: RMD/DCD/HO-2233/4365</p>
       </div>
-      <div class="product-card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Suction_catheter.jpg" alt="Catheter Suction">
-        <h3>Catheter Suction</h3>
-        <p>PVC suction catheter in various sizes for ICU and hospital care.</p>
+    </section>
+    <section>
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="https://www.knsurgicals.in/images/KN_030_Surgical_Blade_SS.jpg" alt="Surgical Blades">
+          <h3>Surgical Blades</h3>
+          <p>High-precision stainless steel blades for clean incisions.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Surgical%20Blades'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://www.knsurgicals.in/images/scissors.jpg" alt="Surgical Scissors">
+          <h3>Surgical Scissors</h3>
+          <p>Durable and sharp scissors for smooth tissue cutting.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Surgical%20Scissors'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://www.knsurgicals.in/images/forceps.jpg" alt="Surgical Forceps">
+          <h3>Forceps</h3>
+          <p>Precision-crafted for firm grip and surgical control.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Forceps'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://www.knsurgicals.in/images/thermometer.jpg" alt="Diagnostic Thermometer">
+          <h3>Digital Thermometer</h3>
+          <p>Quick and accurate digital thermometer for diagnosis.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Thermometer'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://5.imimg.com/data5/KW/YJ/WE/SELLER-11196279/disposable-syringes-500x500.jpg" alt="Disposable Syringes">
+          <h3>Disposable Syringes</h3>
+          <p>Safe and sterile syringes available in various sizes.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Syringes'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/343729726/RE/XC/XC/153733123/bp-monitor-500x500.jpg" alt="BP Monitor">
+          <h3>BP Monitor</h3>
+          <p>Digital blood pressure monitor for accurate readings.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20BP%20Monitor'">Contact to Order</button>
+        </div>
+        <div class="product-card">
+          <img src="https://5.imimg.com/data5/ANDROID/Default/2021/5/VJ/GP/ZM/23677741/product-jpeg-500x500.jpg" alt="Wheelchair">
+          <h3>Foldable Wheelchair</h3>
+          <p>Comfortable, portable wheelchair for patient support.</p>
+          <button onclick="window.location.href='mailto:ospsurgicals@gmail.com?subject=Order%20Wheelchair'">Contact to Order</button>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Blood_tubing_set_for_dialysis.jpg/640px-Blood_tubing_set_for_dialysis.jpg" alt="Blood Tubing Set">
-        <h3>Blood Tubing Set</h3>
-        <p>Disposable PVC blood collection & administration set.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="certificates">
-    <h2>Certificates & Compliance</h2>
-    <ul>
-      <li>MD-42 Registered: RMD/DCD/HO-2233/4365</li>
-      <li>GST Compliant: 07AAECO1631Q1Z6</li>
-      <li>Licensed & Regulated by Indian Drug Authorities</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Address:</strong> A-363, A Block, New Ashok Nagar, Delhi-110096, Opp. Shakti Dairy, Shiv Mandir Road</p>
-    <p><strong>Email:</strong> ospsurgicals@gmail.com</p>
-    <p><strong>Phone:</strong> 8287590081</p>
-    <h3>Product Inquiry</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message / Inquiry" rows="5" required></textarea>
-      <button type="submit">Submit Inquiry</button>
-    </form>
-    <h3>Find Us on Map</h3>
-    <iframe src="https://www.google.com/maps?q=A-363,+A+Block,+New+Ashok+Nagar,+Delhi-110096&output=embed"></iframe>
-  </section>
-
+    </section>
+  </main>
   <footer>
-    <p>&copy; 2025 OSP SURGICAL PVT LTD. All rights reserved.</p>
+    <p>&copy; 2025 OSP SURGICAL PVT LTD. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
